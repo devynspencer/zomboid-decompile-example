@@ -12,6 +12,17 @@ Run configurations are already generated. Run the `setupWorkspace` Gradle task t
 See the [Decompiling section](https://github.com/Konijima/PZ-Libraries#c-decompiling) of the documentation.
 
 
+## Additional Tasks
+Several Gradle tasks will be added to assist with storing and versioning the generated artifacts in `lib`:
+
+| Task | Description | Status     |
+| ---- | ----------- |------------|
+| `createSourceDirectory` | create a directory to store generated source files in. | Incomplete |
+| `createCurrentVersionDirectory` | create a subdirectory for source files for the current Zomboid version. | Incomplete |
+| `copySourceFiles` | copy contents of `lib` to sources directory. | Incomplete |
+| `removeCurrentVersionDirectory` | remove sources from sources directory for current Zomboid version, if any exist. | Incomplete |
+        
+
 ## References
 
 - [Capsid](https://github.com/pzstorm/capsid): Capsid is a compact mod development environment for Project Zomboid.
